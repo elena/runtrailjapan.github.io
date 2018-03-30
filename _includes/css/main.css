@@ -357,7 +357,9 @@ nav ul li:hover, nav ul li.active {
 }
 
 div#intro {
-  background-image:url(img/a-jogger-running-over-rocky-mountains-C5R8E7.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;	
+  background:url(img/a-jogger-running-over-rocky-mountains-C5R8E7.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
 }
